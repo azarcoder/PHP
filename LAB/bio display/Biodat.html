@@ -1,0 +1,44 @@
+<html>
+<body bgcolor="lightblue">
+<title>Bio data</title>
+<h2>Enter your details</h2>
+<form action="biodisplay.php" method="POST" enctype="multipart/form-data">
+Name:&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="na" 
+required><br><br>
+Father's Name:&emsp;&ensp;&nbsp;<input type="text" name="fname" required><br><br>
+Mother's Name:&emsp;&nbsp;<input type="text" name="mname" required><br><br>
+<label for="name">Age:&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</label>
+<input type="number" name="age" required><br><br>
+Gender:&emsp;&emsp;&emsp;&emsp;<input type="radio" name="gender" 
+value="m">Male
+<input type="radio" name="gender" value="f">Female
+<input type="radio" name="gender" value="o">Others<br><br>
+Email:&emsp;&emsp;&emsp;&emsp;&emsp;<input type="email" name="email" 
+required><br><br>
+Educational Qualification:<br>
+<input type="checkbox" name="edu" value="sslc">SSLC<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;Percentage:<input type="text" name="sslc"><br>
+ <input type="checkbox" name="edu1" value="hsc">HSC<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Percentage:<input type="text" name="hsc"><br>
+ <input type="checkbox" name="edu2" value="ug">UG<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;Percentage:<input type="text" name="ug"><br><br>
+ <input type="checkbox" name="edu3" value="pg">PG<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;Percentage:<input type="text" name="pg"><br><br>
+ <label for="address">Address:<br></label><textarea name="address" cols="45" 
+rows="5"></textarea><br><br>
+ City:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="text" name="city" 
+required><br><br>
+Pincode:&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;<input type="text" name="pin" 
+required><br><br>
+Nationality:&emsp;&emsp;&emsp;&ensp;<input type="text" name="nation" 
+required><br><br>
+Marital Status:&emsp;&emsp;&ensp;<input type="text" name="status" required><br><br>
+<h4>The photo resolution should be 140x150p</h4>
+<a href="https://www.iloveimg.com/resize-image#resize-options,pixels">
+  Use this link to resize your image
+</a><br>
+Photo:<input type="file" name="photo" id="photo"><br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
